@@ -3,7 +3,8 @@
 ## 学習内容
 
 - python 基礎文法
-- 内容表記
+- 内包表記
 - requests
 - WEB スクレイピング
 - tkinter
+- etc...
