@@ -101,7 +101,7 @@ def move_player():
 
 
 def shoot():
-    # 弾発射
+    # 弾発射(当たり判定なし)
     global bullet, bx, by
     if key == "d":
         bx, by = px, py
