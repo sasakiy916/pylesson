@@ -1,12 +1,8 @@
 import pygame
 import sys
-# import random
 
 images = "day10/rpg/images/"
 WHITE = (255, 255, 255)
-# BLACK = (0, 0, 0)
-# CYAN = (0, 255, 255)
-# GRAY = (96, 96, 96)
 
 # 背景は最初にロード
 imgBtlBG = pygame.image.load(f"{images}btlbg.png")
@@ -27,7 +23,7 @@ def init_battle():
     imgEnemy = pygame.image.load(f"{images}enemy{str(emy_num)}.png")
     # 足元の位置(440,560)を元に座標を算出(画像の大きさは違っても足元の位置は同じ)
     emy_x = 440-imgEnemy.get_width()/2
-    emy_y = 560-imgEnemy.get_height()/2
+    emy_y = 560-imgEnemy.get_height()
 
 
 def draw_battle(bg, fnt):
